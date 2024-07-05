@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', serif;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: auto;
+    color: #f8f8f2;
+    height: 100%;
+    margin: 0;
+}
+
