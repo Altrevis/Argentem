@@ -11,6 +11,7 @@ body {
 }
 
 .navbar {
+    z-index: 3;
     align-items: center;
     text-align: center;
     background-color: aqua;
@@ -22,9 +23,10 @@ body {
     margin: 2%;
     display: flex;
     gap: 20px;
+    position: fixed;
 }
 
-img {
+.icone {
     font-size: 10px;
     width: 30px;
 }
@@ -35,4 +37,20 @@ a {
     font-size: 25px;
     display: flex;
     align-items: center;
+}
+
+
+.background {
+
+width: 100%;
+height: auto;
+margin-top: -10%;
+
+}
+
+img {
+
+    z-index: -1;
+   display: flex;
+
 }
